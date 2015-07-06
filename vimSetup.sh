@@ -219,3 +219,8 @@ let b:match_words=
 endif
 DELIM
 
+echo "Install NERDTREE"
+cd ~/.vim/bundle && git clone https://github.com/scrooloose/nerdtree.git
+cat  >> ~/.vimrc << DELIM
+nmap <leader>n :NERDTreeToggle<CR>
+DELIM
