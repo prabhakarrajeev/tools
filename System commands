@@ -1,0 +1,2 @@
+Check the number of threads in a linux process
+ps -o nlwp <pid>
