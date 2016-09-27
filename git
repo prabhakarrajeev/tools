@@ -3,3 +3,7 @@ Rename git branch locally and remotely
 git branch -m old_branch new_branch         # Rename branch locally    
 git push origin :old_branch                 # Delete the old branch    
 git push --set-upstream origin new_branch   # Push the new branch, set local branch to track the new remote
+
+Terminal autocomplete for git branches
+1. curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+2. Add this to bashrc ->   test -f ~/.git-completion.bash && . $_
